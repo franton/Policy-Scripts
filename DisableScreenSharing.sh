@@ -13,4 +13,4 @@ fi
 
 # Kill the service
 
-launchctl unload -w /System/Library/LaunchDaemons/com.apple.screensharing.plist 
+/System/Library/CoreServices/RemoteManagement/ARDAgent.app/Contents/Resources/kickstart -deactivate -configure -access -off
